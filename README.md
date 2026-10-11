@@ -4,9 +4,9 @@ Official server-side Node.js SDK documentation. Uptime · Minecraft · Pulse · 
 
 [English](#english) · [Türkçe](#turkce) · [Foventra](https://www.foventra.com) · [License](LICENSE)
 
-This GitHub repository contains **documentation and a usage example**, not the SDK implementation. Install the SDK through npm when the beta is available. `index.js` is a read-only integration example; it does not contain server or SDK internals.
+The [GitHub repository](https://github.com/foventra/foventra-api) contains **documentation and a usage example**, not the SDK implementation. Install the SDK through npm. `index.js` on GitHub is a read-only integration example; it does not contain server or SDK internals.
 
-Bu GitHub deposunda **doküman ve kullanım örneği** bulunur; SDK uygulaması bulunmaz. `index.js` salt okunur bir entegrasyon örneğidir. SDK beta erişilebilir olduğunda npm üzerinden kurulur.
+GitHub deposunda **doküman ve kullanım örneği** bulunur; SDK uygulaması bulunmaz. GitHub'daki `index.js` salt okunur bir entegrasyon örneğidir. SDK npm üzerinden kurulur.
 
 ## Run the example / Örneği çalıştır
 
@@ -26,7 +26,7 @@ The command is for the GitHub usage-example file; the npm SDK package does not a
 
 ## English
 
-> **0.1.0-beta.1 · submitted to npm, processing pending.** npm accepted the beta publish after two-factor authentication. The registry currently shows a temporary holding version; the SDK beta is not installable yet. Use the installation command only once `0.1.0-beta.1` is available. The use-only license is included in [LICENSE](LICENSE).
+> **0.1.0-beta.1 · public beta.** Use the `beta` tag to install this prerelease. Review the documented limitations before production use. The use-only license is included in [LICENSE](LICENSE).
 
 ## What you get
 
@@ -42,7 +42,7 @@ This is a **Node.js SDK**, not a Python package or a browser SDK. Other language
 
 ## Installation and access
 
-npm installation once the beta is available:
+npm installation:
 
 ```sh
 npm install @foventra/api@beta
@@ -340,7 +340,7 @@ Distribution: npm contains the SDK; GitHub contains usage documentation and exam
 
 ## Türkçe
 
-> **0.1.0-beta.1 · npm'e gönderildi, işlenmesi bekleniyor.** npm iki aşamalı doğrulama sonrasında beta yayınını kabul etti. Şu anda geçici bekleme sürümü gösteriliyor; SDK betası henüz kurulabilir değil. Kurulum komutunu `0.1.0-beta.1` erişilebilir olduğunda kullanın. Özel kullanım lisansı [LICENSE](LICENSE) dosyasındadır.
+> **0.1.0-beta.1 · herkese açık beta.** Bu ön sürümü `beta` etiketiyle kurun. Üretim kullanımı öncesinde belgelenen sınırları inceleyin. Özel kullanım lisansı [LICENSE](LICENSE) dosyasındadır.
 
 ## Neler var?
 
@@ -357,7 +357,7 @@ Bu bir **Node.js SDK'sıdır**. Python ve diğer diller REST API kullanır; ayr�
 
 ## Kurulum ve erişim
 
-Beta erişilebilir olduktan sonra npm kurulumu:
+npm kurulumu:
 
 ```sh
 npm install @foventra/api@beta
@@ -637,4 +637,4 @@ Dağıtım: SDK npm'de; GitHub'da sadece kullanım dokümanı ve entegrasyon ör
 - Fixed TypeScript ESM default-import constructor resolution.
 - No automatic write retries or idempotency guarantee. Not a browser/Python SDK.
 - Custom use-only license: official SDK use is permitted; SDK implementation modification is restricted.
-- npm accepted the beta submission; registry processing is pending. GitHub contains documentation and a usage example only.
+- Prerelease channel: `beta`; GitHub contains documentation and a usage example only.
