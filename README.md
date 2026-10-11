@@ -13,7 +13,7 @@ GitHub deposunda **doküman ve kullanım örneği** bulunur; SDK uygulaması bul
 Requires Node.js 20.3+, an active Pro/Ultimate plan and a key with `uptime.read`.
 
 ```sh
-npm install @foventra/api@beta
+npm install @foventra/api
 # Set FOVENTRA_API_KEY securely in your server environment first.
 node index.js
 ```
@@ -26,7 +26,7 @@ The command is for the GitHub usage-example file; the npm SDK package does not a
 
 ## English
 
-> **0.1.0-beta.1 · public beta.** Use the `beta` tag to install this prerelease. Review the documented limitations before production use. The use-only license is included in [LICENSE](LICENSE).
+> **0.1.0-beta.1 · public beta.** Install directly with `npm install @foventra/api`; `latest` currently points to this prerelease. Review the documented limitations before production use. The use-only license is included in [LICENSE](LICENSE).
 
 > **Backend rollout notice (2026-10-11):** The published SDK supports the new API contract, but the production API is still on the older backend. Public OpenAPI verification found 9 live operations versus 36 in the new contract; `/limits` currently returns HTTP 404. Advanced features require deployment of the new backend. Package installation and local integration tests do not prove production feature availability. Use only a trusted matching API environment, and check its `/openapi.json` before integration.
 
@@ -47,7 +47,7 @@ This is a **Node.js SDK**, not a Python package or a browser SDK. Other language
 npm installation:
 
 ```sh
-npm install @foventra/api@beta
+npm install @foventra/api
 ```
 
 For an authorized local preview, install a locally supplied SDK folder or tarball instead:
@@ -342,7 +342,7 @@ Distribution: npm contains the SDK; GitHub contains usage documentation and exam
 
 ## Türkçe
 
-> **0.1.0-beta.1 · herkese açık beta.** Bu ön sürümü `beta` etiketiyle kurun. Üretim kullanımı öncesinde belgelenen sınırları inceleyin. Özel kullanım lisansı [LICENSE](LICENSE) dosyasındadır.
+> **0.1.0-beta.1 · herkese açık beta.** Doğrudan `npm install @foventra/api` ile kurun; `latest` şu anda bu ön sürüme işaret eder. Üretim kullanımı öncesinde belgelenen sınırları inceleyin. Özel kullanım lisansı [LICENSE](LICENSE) dosyasındadır.
 
 > **Backend dağıtım notu (2026-10-11):** SDK yeni API sözleşmesini destekler; üretim API'si hâlâ eski backend'i sunuyor. Herkese açık OpenAPI kontrolünde yeni sözleşmedeki 36 işlem yerine 9 canlı işlem görüldü; `/limits` şu anda HTTP 404 dönüyor. Gelişmiş özellikler için yeni backend'in üretime alınması gerekir. Paket kurulumu ve yerel entegrasyon testleri üretimde tüm özelliklerin açık olduğunu göstermez. Yalnızca güvenilir, aynı sözleşmeyi sunan API ortamını kullanın ve önce `/openapi.json` adresini kontrol edin.
 
@@ -364,7 +364,7 @@ Bu bir **Node.js SDK'sıdır**. Python ve diğer diller REST API kullanır; ayr�
 npm kurulumu:
 
 ```sh
-npm install @foventra/api@beta
+npm install @foventra/api
 ```
 
 Yetkili yerel önizleme için size verilen paket klasörünü veya arşivini kurun:
