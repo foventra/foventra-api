@@ -26,7 +26,7 @@ The command is for the GitHub usage-example file; the npm SDK package does not a
 
 ## English
 
-> **0.1.0-beta.1 · publication pending.** npm publication is not yet complete. The installation command applies once the beta is available. The use-only license is included in [LICENSE](LICENSE).
+> **0.1.0-beta.1 · submitted to npm, processing pending.** npm accepted the beta publish after two-factor authentication. The registry currently shows a temporary holding version; the SDK beta is not installable yet. Use the installation command only once `0.1.0-beta.1` is available. The use-only license is included in [LICENSE](LICENSE).
 
 ## What you get
 
@@ -340,7 +340,7 @@ Distribution: npm contains the SDK; GitHub contains usage documentation and exam
 
 ## Türkçe
 
-> **0.1.0-beta.1 · yayımlama bekliyor.** npm yayımlaması henüz tamamlanmadı. Kurulum komutu beta erişilebilir olduğunda kullanılabilir. Özel kullanım lisansı [LICENSE](LICENSE) dosyasındadır.
+> **0.1.0-beta.1 · npm'e gönderildi, işlenmesi bekleniyor.** npm iki aşamalı doğrulama sonrasında beta yayınını kabul etti. Şu anda geçici bekleme sürümü gösteriliyor; SDK betası henüz kurulabilir değil. Kurulum komutunu `0.1.0-beta.1` erişilebilir olduğunda kullanın. Özel kullanım lisansı [LICENSE](LICENSE) dosyasındadır.
 
 ## Neler var?
 
@@ -637,4 +637,4 @@ Dağıtım: SDK npm'de; GitHub'da sadece kullanım dokümanı ve entegrasyon ör
 - Fixed TypeScript ESM default-import constructor resolution.
 - No automatic write retries or idempotency guarantee. Not a browser/Python SDK.
 - Custom use-only license: official SDK use is permitted; SDK implementation modification is restricted.
-- npm publication is pending; GitHub contains documentation and a usage example only.
+- npm accepted the beta submission; registry processing is pending. GitHub contains documentation and a usage example only.
